@@ -1,0 +1,1592 @@
+.body {
+    overflow: hidden;}
+
+
+.mene {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shoptext,
+.postertext,
+.galeretext,
+.contactstext {
+font-family: 'Commissioner-Regular';
+font-size: 2.1vw;
+color: black;
+text-decoration:none;
+margin-top: 2.1vw;
+} 
+
+.main {
+    padding: 1.8vw 2.1vw 0.6vw 2.1vw;
+
+}
+
+.logo {
+    width: 15.4vw;
+}
+
+.contacts {
+    padding: 2.3vw 4vw 2.3vw 4vw;
+}
+
+.shop{
+    padding: 2.3vw 6vw 2.3vw 6vw;
+}
+.poster, 
+.galere {
+    padding: 2.3vw 5vw 2.3vw 5vw;
+}
+
+.main:hover,
+.shop:hover,
+.poster:hover,
+.galere:hover,
+.contacts:hover {
+    background-color:#FE0000 ;
+    cursor: pointer;
+    
+}
+
+.first-container {
+    position: relative;
+}
+
+.fistcontanttop {
+    height: 22vw;
+    background-color:#FE0000;  
+    position: relative;
+    overflow: hidden;
+}
+
+.cringewords {
+position: absolute;
+display: flex;
+flex-direction: row;
+}
+
+.wordfirst{
+    padding: 1.5vw 0 0 4vw ;
+    width: 16.3vw;
+}
+
+.watchfr,
+.watchsc,
+.watchth,
+.watchfot
+ {width: 16.3vw;
+
+}
+
+.wordsecond{
+    padding: 14.8vw 1vw 0 0 ;
+
+}
+
+.wordthird{
+    padding: 2.3vw 0 0 18vw ;
+
+}
+
+.wordfouth{
+    padding: 5.8vw 0 0 3vw ;
+
+}
+
+
+.fistcontop {
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.eyefr {
+padding-top: 7vw;
+margin-left: 7vw;
+position: relative;
+}
+
+.eyesc {
+    padding-top: 9vw;
+    margin-left: 6vw;
+    position: relative;
+}
+
+.eyeth {
+    padding-top: 11vw;
+    margin-left: 23vw;
+    position: relative;
+    }
+
+.eyefot {
+    padding-top: 5vw;
+    margin-left: 8vw;
+    position: relative;
+    }
+
+.eyefrimg,
+.eyescimg {
+    width: 12.5vw;
+}
+
+.eyethimg,
+.eyefotimg  {
+    width: 10vw;
+}
+
+.fistcondown {
+position: relative;}
+
+.mouthfr {
+position: absolute;
+margin-top: 2vw;
+margin-left: 15vw;
+z-index: 3;
+}
+
+.mouthfrimg {
+width: 19.4vw;
+
+}
+
+.firstconwhite {
+height: 23vw;
+}
+
+
+
+
+.firstconwhite {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Commissioner-ExtraLight';
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.freedom {
+font-size: 2.8vw;
+margin-left: 1vw;
+animation: fall-bounce 2s ease-in-out infinite;
+
+}
+.inclu {
+    font-size: 2.3vw;
+    margin-top: 18vw;
+    margin-left: 33vw;
+    
+    animation: stroke 1s infinite reverse;
+}
+
+.mouthconwhite {
+    margin-left: 13vw;
+
+}
+
+.respect {
+    font-size: 5.2vw;
+    margin-top: 2vw;
+    margin-left: 2vw;
+    animation: fall-bounce 2s ease-in-out infinite alternate-reverse;
+}
+
+.mouthimgsc {
+    width: 14.8vw;
+}
+
+.normalfraze {
+position: absolute;
+z-index: 3;
+}
+
+.normalfrazeimg {
+width: 42vw;
+margin-top: 18vw;
+margin-left: 31vw;
+}
+
+.fistrunsrtoke {
+    height: 4vw;
+    background-color:#FE0000;  
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    z-index: 3;
+    }
+  
+p {
+    font-size: 3vw;
+    color: white;
+    white-space: nowrap;
+    animation: stroke 2s linear infinite;
+    z-index: 4;
+    
+}
+.runbold {
+font-family: 'Commissioner-Bold';
+}
+
+.runitalicbold {
+    font-family: 'Commissioner-Bold';
+    font-style: italic;
+}
+
+.runitalic {
+    font-family:'Commissioner-Regular' ;
+    font-style: italic;
+}
+
+.runitaliclight {
+    font-family:'Commissioner-ExtraLight';
+    font-style: italic;
+
+}
+
+.runregular {
+    font-family:'Commissioner-Regular' ;
+}
+
+.second-container {
+position: relative;
+overflow: hidden;
+
+}
+
+.point {
+position: absolute;
+margin-top: 18vw;
+font-family:'Commissioner-ExtraLight';
+font-style: italic;
+font-size: 9.4vw;
+text-transform: uppercase;
+z-index: -1;
+
+}
+
+.allpoints {
+    font-family:'Commissioner-Regular' ;
+    font-size: 2.5vw;
+    text-transform: lowercase;
+   width: 80vw;
+    height: 40vw;
+   
+
+}
+
+.bloke {
+    animation: fall-bounce 3s infinite linear;
+    z-index: 0;
+}
+
+#frbloke {
+width: 33vw;
+background-color: #FE0000;
+margin-top: 16vw ;
+margin-left: 1vw;
+position: absolute;
+animation-delay: 0s;
+
+}
+
+#scbloke {
+width: 32vw ;
+background-color: #FE0000;
+position: absolute;
+margin-top: 5vw ;
+margin-left: 60vw;
+animation-delay: 0.1s;
+}
+
+#thbloke {
+    width: 17.3vw ;
+    background-color: #FE0000;
+    position: absolute;
+    margin-top: 9vw ;
+margin-left: 33vw;
+animation-delay: 0.3s;
+}
+
+#forthbloke {
+    width: 31.9vw ;
+    background-color: #FE0000;
+    position: absolute;
+    margin-top: 28vw ;
+margin-left: 60vw;
+animation-delay: 0.4s;
+}
+
+#fivbloke {
+    width: 24.3vw ;
+    background-color: #FE0000;
+    position: absolute;
+    margin-top: 17vw ;
+    margin-left: 62vw;
+    animation-delay: 0.6s;
+}
+
+.handleft,
+.handright {
+position: absolute;
+
+
+}
+.handleft {
+top: -13vw;
+z-index: 3;
+transform: rotate(10deg);
+left: -10vw;
+animation: stroke 1s infinite linear;
+}
+.handright {
+    top: 5vw;
+    z-index: 3;
+    transform: rotate(-10deg);
+    left: 60vw;
+    animation: stroke 1s infinite reverse;
+    }
+
+.handleftimg,
+.handrightimg {
+    width: 55vw;
+}
+
+.third-container {
+height: 24vw;
+position: relative;
+}
+
+.worddtridfr {
+    position: absolute;
+font-size: 3.5vw;
+text-transform: uppercase;
+transform: rotate(10deg);
+font-family:'Commissioner-Regular';
+top: 8vw;
+animation: stroke 1s infinite reverse;
+}
+
+.worddtridsc {
+    position: absolute;
+    font-size: 8.9vw;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family:'Commissioner-Regular';
+    top: 16vw;
+    left: 15vw;
+}
+
+.worddtridth  {
+    position: absolute;
+    font-size: 3.5vw;
+    font-family:'Commissioner-Regular';
+    top: 16vw;
+    left: 52vw;
+    animation: stroke 1s infinite linear;
+}
+
+.worddtridfo  {
+    position: absolute;
+    font-size: 3.5vw;
+    font-family:'Commissioner-Regular';
+    top: 1vw;
+    left: 52vw;
+    animation: fall-bounce 1s infinite linear;
+}
+.worditalicbold {
+    font-family: 'Commissioner-Bold';
+    font-style: italic;
+    text-transform: uppercase;
+    animation: stroke 0.5s infinite reverse;
+}
+
+.worddtridfi  {
+    position: absolute;
+    font-size: 6.7vw;
+    font-family:'Commissioner-Regular';
+    text-transform: uppercase;
+    top: 6vw;
+    left: 71vw;
+    transform: rotate(-20deg);
+}
+
+.fouth-container {
+position: relative;
+height: 15.2vw;
+background-color: #FE0000;
+}
+
+.teem {
+    font-family:'Commissioner-Regular';
+    text-transform: uppercase;
+    font-size: 4.4vw;
+    font-style: italic;
+    color: white;
+    transform: rotate(-5deg);
+    letter-spacing: 2vw;
+    position: absolute;
+    top: 7.5vw;
+    left: 17vw;
+}
+
+.five-container {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.fist,
+.second,
+.third,
+.fouth,
+.five {
+    border: 0.5vw solid #FE0000;
+    border-top: none;
+    position: relative;
+}
+
+.fist {
+height: 28vw;
+width: 17vw;
+}
+
+.name-first,
+.name-second,
+.name-third,
+.name-fouth,
+.name-five
+{
+    font-family:'Commissioner-Regular';
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 3.5vw;
+    position: absolute;
+}
+
+.work-first,
+.work-second,
+.word-third,
+.word-fouth,
+.word-five {
+    font-family:'Commissioner-Regular';
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 1.5vw;
+    position: absolute;
+
+}
+
+.name-first { 
+    transform: rotate(-10deg);
+    top: 13vw;
+    left: 4vw;
+}
+
+.work-first {
+    top: 25vw;
+    left: 1vw;
+}
+
+.img-f {    
+    width: 22vw;
+    position: absolute;
+    top: 1vw;
+    left: -3vw;
+    animation: fall-bounce 2s ease-in-out infinite reverse;
+    animation-delay: 0s;
+}
+
+
+.second {
+    width: 17vw;
+    height: 26vw;
+}
+
+.name-second {
+    transform: rotate(10deg);
+    top: 20vw;
+    left: 1vw;
+    }
+
+.work-second {
+    top: 1vw;
+    left: 1vw;
+
+}
+
+.img-s {
+width: 29vw;
+position: absolute;
+top: -1vw;
+left: -5vw;
+animation: fall-bounce 2s ease-in-out infinite alternate-reverse;
+animation-delay: 0.2s;
+
+}
+
+.third {
+    width: 17vw;
+    height: 25vw;
+
+}
+
+.name-third {
+    transform: rotate(5deg);
+    top: 23vw;
+    left: 6vw;
+}
+
+.word-third {
+    top: 12vw;
+    left: 1vw;
+    transform: rotate(70deg);
+
+}
+
+.img-t {
+    width: 16vw;
+    position: absolute;
+    top: -1vw;
+    left: 2vw;
+    animation: fall-bounce 2s ease-in-out infinite reverse;
+    animation-delay: 0.1s;
+}
+
+.fouth {
+    width: 17vw;
+    height: 26vw;
+}
+
+.name-fouth {
+    top: 1vw;
+    left: 2vw;
+}
+
+.word-fouth {
+    transform: rotate(-10deg);
+    top: 17vw;
+    left: 9vw;
+}
+
+.img-four {
+    width: 22vw;
+    position: absolute;
+    top: 2vw;
+    left: -3vw;
+    animation: fall-bounce 2s ease-in-out infinite alternate-reverse;
+    animation-delay: 0.3s;
+}
+
+.five{
+    width: 17vw;
+    height: 26vw;
+
+}
+
+.name-five {
+    transform: rotate(-10deg);
+    top: 23vw;
+    left: 6vw;
+}
+
+.word-five {
+    transform: rotate(-10deg);
+    top: 21vw;
+    left: 1vw;
+
+}
+
+.img-five {
+    width: 16vw;
+    position: absolute;
+    top: -1vw;
+    left: 1vw;
+    animation: fall-bounce 2s ease-in-out infinite alternate-reverse;
+    animation-delay: 0s;
+}
+
+
+.six-container {
+    margin-top: 5vw;
+height: 10vw;
+background-color: #FE0000;
+}
+
+
+
+/* ПЕРВАЯ СТРАНИЦА КРИНЖБАНДА */
+
+
+/* СТРАНИЦА МАГАЗИН  */
+
+.shop-container-first {
+height: 21.6vw;
+background-color: #FE0000;
+position: relative;
+}
+
+.handup {
+    width: 35vw;
+    position: absolute;
+    top: 6.7vw;
+    left: 34vw;
+    z-index: 2;
+    animation: stroke 1s infinite reverse;
+}
+
+.name-shop {
+    font-size: 8.9vw;
+    font-family:'Commissioner-Regular';
+    text-transform: uppercase;
+    font-style: italic;
+    position: absolute;
+    word-spacing: 9vw;
+    top: 5vw;
+    left: 9vw;
+}
+
+.shop-container-second {
+display: flex;
+flex-direction: row;
+}
+
+.shop-container-left,
+.shop-container-right
+ {
+width: 50vw;
+display: flex;
+flex-direction: column;
+
+}
+
+.shop-red-sweather {
+ width: 45vw ;
+    height: 28vw ;
+    border: 0.8vw solid #FE0000;
+    border-top: none;
+    position: relative;
+    animation: stroke 0.5s infinite linear;
+    animation-delay: 0s;
+}
+
+.shop-honor {
+    width: 40vw ;
+    height: 28vw ;
+    border: 0.8vw solid #FE0000;
+    margin-top: 5vw;
+    margin-left:5vw;
+    position: relative;
+    animation: fall-bounce 3s infinite linear;
+    animation-delay: 0.1s;
+}
+
+.shop-bag-fr {
+height: 20vw;
+width: 36vw;
+border: 0.8vw solid #FE0000;
+margin-top: 5vw;
+margin-left:1vw;
+position: relative;
+animation: stroke 0.5s infinite reverse;
+animation-delay: 0.2s;
+
+}
+
+.shop-bag-sc {
+    height: 22vw;
+    width: 28vw;
+    border: 0.8vw solid #FE0000;
+    margin-top: 6vw;
+    margin-left:17vw;
+    position: relative;
+    animation: fall-bounce 3s infinite reverse;
+    animation-delay: 0.3s;
+
+}
+
+.shop-white-sweather {
+    width: 45vw ;
+    height: 28vw ;
+    border: 0.8vw solid #FE0000;
+    margin-top: 10vw;
+    margin-left: 2vw;
+    position: relative;
+    animation: stroke 0.5s infinite reverse;
+    animation-delay: 0.4s;
+}
+
+.shop-bag-th {
+    width: 30vw ;
+    height: 28vw ;
+    border: 0.8vw solid #FE0000;
+    margin-top: 13vw;
+    margin-left: 5vw;
+    position: relative;
+    animation: fall-bounce 3s infinite linear;
+    animation-delay: 0.5s;
+}
+
+.shop-notebook {
+width: 42.5vw;
+height: 27vw ;
+border: 0.8vw solid #FE0000;
+margin-top: 8vw;
+margin-left: 3vw;
+position: relative;
+animation: stroke 0.5s infinite linear;
+animation-delay: 0.3s;
+z-index: 2;
+}
+
+.shop-red-sweather:hover,
+.shop-honor:hover,
+.shop-bag-fr:hover,
+.shop-bag-sc:hover,
+.shop-white-sweather:hover,
+.shop-bag-th:hover,
+.shop-notebook:hover {
+animation: none;
+} 
+
+
+
+.redswimg {
+width: 30.5vw;
+position: absolute;
+top: -9vw;
+left: 12vw;
+}
+
+.buy-shop-red-sweather {
+    position: absolute;
+    font-family:'Commissioner-Regular';
+    font-style: italic;
+    font-size: 2.5vw;
+    text-transform: uppercase;
+    background-color: #FE0000;
+    height: 20vw;
+    width: 5.3vw;
+    text-align: center;
+    line-height: 3vw;
+    top: 3vw;
+    left: 3vw;
+    padding-top: 1.1vw;
+    padding-right: 0.8vw;
+}
+
+.cost-red-sweather {
+    font-family:'Commissioner-Regular';
+    font-style: italic;
+    font-size: 2.5vw;
+    position: absolute;
+    top: 0vw;
+    left: 9vw; 
+    animation: fall-bounce 3s infinite linear;
+    animation-delay: 0s;
+}
+
+.fraze-red-sweather {
+    position: absolute;
+    top: -2vw;
+    left: 10.5vw;
+}
+
+.frazfr {
+    width: 9vw;
+}
+
+.buy-shop-honor{
+    position: absolute;
+    font-family:'Commissioner-Regular';
+    font-style: italic;
+    font-size: 2.5vw;
+    text-transform: uppercase;
+    background-color: #FE0000;
+    height: 4.3vw;
+    width: 20vw;
+    text-align: center;
+    line-height: 3vw;
+    top: 21vw;
+    left: 16vw;
+    padding-top: 1.1vw;
+    padding-right: 0.8vw;
+}
+
+.img-honor {
+    width: 53vw;
+    position: absolute;
+    top: -24vw;
+    left: -2vw;
+    z-index: -1;
+}
+
+
+.img-frazehonor {
+    width: 17vw;
+    position: absolute;
+    top: 12vw;
+    left: 5vw;
+}
+
+
+.cost-shop-honor {
+    font-family:'Commissioner-Regular';
+    font-style: italic;
+    font-size: 2.5vw;
+    position: absolute;
+    top: 0.5vw;
+    left: 9vw; 
+    animation: fall-bounce 3s infinite linear;
+    animation-delay: 0.1s;
+
+}
+
+.buy-bag-fr {
+    position: absolute;
+    font-family: 'Commissioner-Regular';
+    font-style: italic;
+    font-size: 2.5vw;
+    text-transform: uppercase;
+    background-color: #FE0000;
+    height: 4.3vw;
+    width: 20vw;
+    text-align: center;
+    line-height: 3vw;
+    top: 13vw;
+    left: 14vw;
+    padding-top: 1.1vw;
+    padding-right: 0.8vw;
+}
+
+.img-frazebagfr{
+    width: 10vw;
+    position: absolute;
+    top: 0vw;
+    left: 15vw;
+}
+
+.img-badfr {
+    width: 24vw;
+    position: absolute;
+    top: -3vw;
+    left: -3vw;
+    z-index: 2;
+}
+
+.cost-bag-fr {
+    font-family:'Commissioner-Regular';
+    font-style: italic;
+    font-size: 2.5vw;
+    position: absolute;
+    top: 5.5vw;
+    left: 28vw; 
+    animation: fall-bounce 3s infinite linear;
+    animation-delay: 0.2s;
+
+}
+
+.buy-bag-sc {
+    position: absolute;
+    font-family: 'Commissioner-Regular';
+    font-style: italic;
+    font-size: 2.5vw;
+    text-transform: uppercase;
+    background-color: #FE0000;
+    height: 4.3vw;
+    width: 20vw;
+    text-align: center;
+    line-height: 3vw;
+    top: 14vw;
+    left: 10vw;
+    padding-top: 1.1vw;
+    padding-right: 0.8vw;
+
+}
+
+.img-frazebadsc {
+    width: 10vw;
+    position: absolute;
+    top: 1vw;
+    left: 10vw;
+}
+
+.img-bagsc {
+    width: 16vw;
+    position: absolute;
+    top: 1vw;
+    left: -1vw;
+    z-index: 2;
+}
+
+.cost-bag-sc {
+    font-family:'Commissioner-Regular';
+    font-style: italic;
+    font-size: 2.5vw;
+    position: absolute;
+    top: 6.5vw;
+    left: 20vw; 
+    animation: fall-bounce 3s infinite linear;
+    animation-delay: 0.3s;
+
+}
+
+.buy-white-sweather {
+    position: absolute;
+    font-family: 'Commissioner-Regular';
+    font-style: italic;
+    font-size: 2.5vw;
+    text-transform: uppercase;
+    background-color: #FE0000;
+    height: 4.3vw;
+    width: 20vw;
+    text-align: center;
+    line-height: 3vw;
+    top: 21vw;
+    left: 23vw;
+    padding-top: 1.1vw;
+    padding-right: 0.8vw;
+}
+
+.img-frazswsc {
+    width: 10vw;
+    position: absolute;
+    top: -4vw;
+    left: 23vw;
+}
+
+.img-whtsweather {
+    width: 39vw;
+    position: absolute;
+    top: -10vw;
+    left: -3vw;
+    z-index: -1;
+
+}
+
+.cost-white-sweather {
+    font-family:'Commissioner-Regular';
+    font-style: italic;
+    font-size: 2.5vw;
+    position: absolute;
+    top: 3.5vw;
+    left: 33vw; 
+    animation: fall-bounce 3s infinite linear;
+    animation-delay: 0s;
+}
+
+.buy-bag-th {
+    position: absolute;
+    font-family:'Commissioner-Regular';
+    font-style: italic;
+    font-size: 2.5vw;
+    text-transform: uppercase;
+    background-color: #FE0000;
+    height: 20vw;
+    width: 5.3vw;
+    text-align: center;
+    line-height: 3vw;
+    top: 3vw;
+    left: 1vw;
+    padding-top: 1.1vw;
+    padding-right: 0.8vw;
+}
+
+.img-frazebagth {
+    width: 14vw;
+    position: absolute;
+    top: 10vw;
+    left: 15vw;
+}
+
+.img-bagth {
+    width: 19vw;
+    position: absolute;
+    top: -11vw;
+    left: 7vw;
+    z-index: 2;
+
+}
+
+.cost-bag-th {
+    font-family:'Commissioner-Regular';
+    font-style: italic;
+    font-size: 2.5vw;
+    position: absolute;
+    top: 3.5vw;
+    left: 23vw; 
+    animation: fall-bounce 3s infinite linear;
+    animation-delay: 0.1s;
+
+}
+
+.buy-notebook{
+    position: absolute;
+    font-family:'Commissioner-Regular';
+    font-style: italic;
+    font-size: 2.5vw;
+    text-transform: uppercase;
+    background-color: #FE0000;
+    height: 20vw;
+    width: 5.3vw;
+    text-align: center;
+    line-height: 3vw;
+    top: 3vw;
+    left: 4vw;
+    padding-top: 1.1vw;
+    padding-right: 0.8vw;
+
+}
+
+.img-frazenote {
+    width: 15vw;
+    position: absolute;
+    top: 6vw;
+    left: 13vw;
+    z-index: -1;
+}
+
+.img-note {
+    width: 27vw;
+    position: absolute;
+    top: -4vw;
+    left: 16vw;
+   z-index: -1;
+}
+
+.cost-notebook {
+    font-family:'Commissioner-Regular';
+    font-style: italic;
+    font-size: 2.5vw;
+    position: absolute;
+    top: 23.5vw;
+    left: 34vw;
+    animation: stroke 0.5s infinite reverse;
+    animation-delay: 0.2s;
+}
+
+.footer {
+    height: 9.7vw;
+    background-color: #FE0000;
+    margin-top: 5vw;
+    position: relative;
+   
+}
+
+.handdown {
+    width: 45vw;
+    position: absolute;
+    top: -27.7vw;
+    left: 27vw;
+    animation: stroke 1s infinite reverse;
+
+}
+
+/* КОНЕЦ МАГАЗИН */
+
+/* СТРАНИЦА СОБЫТИЯ */
+
+.poster-container-first{
+display: flex;
+flex-direction: column;
+position: relative;
+}
+
+.red-fist,
+.red-second,
+.red-third,
+.red-fouth {
+    background-color: #FE0000;
+}
+
+.red-fist {
+    height: 22vw;
+    margin-bottom: 13.5vw;
+    font-size: 9vw;
+    font-family:'Commissioner-Regular';
+    font-style: italic;
+    position: relative;
+
+}
+
+.red-fist-fr {
+position: absolute;
+top: 13.9vw;
+left: 1vw;
+animation: fall-bounce 1s infinite linear;
+animation-delay: 0s;
+}
+
+.red-second {
+    height: 30vw;
+    margin-bottom: 10vw;
+   position: relative;
+}
+
+.red-senod-fr {
+    font-family:'Commissioner-Regular';
+    font-size: 2vw;
+    position: absolute;
+    top: -0.2vw;
+    left: 49vw;
+    z-index: 2;
+    animation: fall-bounce 1s infinite linear;
+    animation-delay: 0.1s;
+}
+
+.red-second-sc{
+    font-family:'Commissioner-Regular';
+    font-style: italic;
+    font-size: 9vw;
+    position: absolute;
+    top: 21.9vw;
+    left: 1vw;
+    animation: fall-bounce 1s infinite reverse;
+    animation-delay: 0.2s;
+}
+
+.red-third {
+    height: 30vw;
+    margin-bottom: 14vw;
+    font-size: 2vw;
+    position: relative;
+
+}
+
+.red-third-fr {
+    font-family:'Commissioner-Regular';
+    font-size: 2vw;
+    position: absolute;
+    top: 13vw;
+    left: 39vw;
+    animation: fall-bounce 1s infinite linear;
+    animation-delay: 0.3s;
+}
+
+.red-third-sc {
+    font-family:'Commissioner-Regular';
+    font-style: italic;
+    font-size: 9vw;
+    position: absolute;
+    top: 21.8vw;
+    left: 1vw;
+    animation: fall-bounce 1s infinite reverse;
+    animation-delay: 0.4s;
+}
+
+.red-fouth{
+    height: 25vw;
+    margin-bottom: 5vw;
+    font-family:'Commissioner-Regular';
+    font-size: 2vw;
+    position: relative;
+}
+
+.red-fouth-fr {
+    position: absolute;
+    top: 10vw;
+    left: 66vw;
+    animation: fall-bounce 1s infinite linear;
+    animation-delay: 0s;
+}
+
+.poster-container-second {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+
+}
+
+.poster-left-colonm{
+    position: absolute;
+    top: -130vw;
+}
+
+.img-posterfr {
+    left: 1vw;
+    position: absolute;
+    width: 27.7vw;
+    animation: stroke 1.5s infinite linear;
+    animation-delay: 0.1s;
+}
+
+.img-postersc {
+    left: 24vw;
+    position: absolute;
+    width: 27.7vw;
+    top: 1vw;
+    animation: stroke 1s infinite reverse;
+    animation-delay: 0.2s;
+
+}
+
+.img-posterth {
+    left: 9vw;
+    position: absolute;
+    width: 27.7vw;
+    top: 45vw;
+    animation: stroke 0.5s infinite linear;
+    animation-delay: 0.3s;
+
+
+}
+
+.img-posterfo {
+    left: 37vw;
+    position: absolute;
+    width: 30.7vw;
+    top: 36vw;
+    animation: stroke 1.5s infinite reverse;
+    animation-delay: 0.4s;
+}
+
+.img-posterfiv{
+    left: 1vw;
+    position: absolute;
+    width: 27.7vw;
+    top: 88vw;
+    animation: stroke 1s infinite linear;
+    animation-delay: 0s;
+
+}
+
+.img-postersix{
+    left: 21vw;
+    position: absolute;
+    width: 27.7vw;
+    top: 97vw;
+    animation: stroke 0.5s infinite reverse;
+    animation-delay: 0.1s;
+}
+
+.img-posterseven{
+    left: 46vw;
+    position: absolute;
+    width: 20.7vw;
+    top: 79vw;
+    animation: stroke 1.5s infinite linear;
+    animation-delay: 0.2s;
+}
+
+ .poster-right-colonm{
+        position: absolute;
+        top: -130vw;
+       
+    }
+
+.img-postereight {
+    left: 54vw;
+    position: absolute;
+    width: 35.7vw;
+    top: -23vw;
+    animation: stroke 0.5s infinite linear;
+    animation-delay: 0.3s;
+}
+
+.img-posterni {
+    left: 63vw;
+    position: absolute;
+    width: 33.7vw;
+    top: -4vw;
+    animation: stroke 1.5s infinite reverse;
+    animation-delay: 0.4s;
+}
+
+.img-posterten{
+    left: 70vw;
+    position: absolute;
+    width: 20.7vw;
+    top: 49vw;
+    animation: stroke 1s infinite linear;
+    animation-delay: 0s;
+}
+
+.img-posterelev {
+    left: 66vw;
+    position: absolute;
+    width: 24.7vw;
+    top: 79vw;
+    animation: stroke 0.5s infinite reverse;
+    animation-delay: 0.1s;
+}
+
+.img-posterfr:hover,
+.img-postersc:hover,
+.img-posterth:hover,
+.img-posterfo:hover,
+.img-posterfiv:hover,
+.img-postersix:hover,
+.img-posterseven:hover,
+.img-postereight:hover,
+.img-posterni:hover,
+.img-posterten:hover,
+.img-posterelev:hover {
+animation: none;
+}
+
+
+/* КОНЕЦ СТРАНИЦЫ СОБЫТИЯ */
+
+/* НАЧАЛО СТРАНИЦЫ ГАЛЕРЕЯ */
+
+.galere-first-container {
+display: flex;
+flex-direction: column;
+}
+
+.galere-fr,
+.galare-sc,
+.galare-fo {
+background-color: #FE0000;
+
+}
+
+.galere-fr {
+height: 22vw;
+margin-bottom: 22vw;
+position: relative;
+}
+
+.galere-fr-fr {
+font-size: 2.5vw;
+font-family:'Commissioner-Regular';
+position: absolute;
+top: 1vw;
+left: 1vw;
+line-height: 3vw;
+animation: fall-bounce 1s infinite reverse;
+
+}
+
+.galere-fr-sc {
+    font-size: 4.5vw;
+    font-family:'Commissioner-Regular';
+    font-style: italic;
+    text-transform: uppercase;
+    position: absolute;
+    top: 6vw;
+    left: 53vw;
+    transform: rotate(-10deg);
+    animation: fall-bounce 1s infinite linear;
+    animation-delay: 0s;
+}
+
+.galere-fr-th {
+    font-size: 8.9vw;
+    font-family:'Commissioner-Regular';
+    font-style: italic;
+    text-transform: uppercase;
+    position: absolute;
+    top: 14vw;
+    left: 1vw;
+    animation: stroke 1s infinite reverse;
+    animation-delay: 0.5s;
+   
+}
+
+.galare-sc{
+    height: 22vw;
+    position: relative;
+
+}
+
+.galare-sc-fr{
+    font-size: 2.5vw;
+    font-family:'Commissioner-Regular';
+    position: absolute;
+    top: 9vw;
+    left: 43vw;
+    animation: stroke 1s infinite linear;
+    animation-delay: 0.2s;
+   
+}
+
+.galare-th{
+    font-size: 2.5vw;
+    font-family:'Commissioner-Regular';
+    top: 1vw;
+    left: 1vw;
+    animation: fall-bounce 1.5s infinite reverse;
+    animation-delay: 0.3s;
+
+}
+
+.galare-th{
+    height: 12vw;
+    font-size: 2.5vw;
+    padding-top: 19vw;
+    padding-left: 17vw;
+}
+
+.galare-fo{
+    height: 10vw;
+}
+
+.galere-second-container{
+position: relative;
+}
+
+.image-first,
+.images-second,
+.image-third,
+.image-fouth,
+.image-fivth,
+.image-six {
+position: absolute;
+}
+
+.img-fr {
+position: absolute;
+    top: -83vw;
+    left: 7vw;
+    width: 27vw;
+    animation: stroke 1s infinite linear;
+    animation-delay: 0.2s;
+   
+
+}
+
+.img-sc {
+    position: absolute;
+    top: -85vw;
+    left: 42vw;
+    width: 22vw;
+    animation: fall-bounce 1s infinite reverse;
+    animation-delay:0.1s;
+   
+ 
+}
+
+.img-th {
+    position: absolute;
+    top: -88vw;
+    left: 69vw;
+    width: 27vw;
+    animation: stroke 1s infinite linear;
+    animation-delay: 0.2s;
+   
+}
+
+.img-fo {
+    position: absolute;
+    top: -61vw;
+    left: 5vw;
+    width: 27vw;
+    z-index: 2;
+    animation: stroke 1s infinite reverse;
+    animation-delay: 0.15s;
+   
+}
+
+.img-fiv {
+    position: absolute;
+    top: -51vw;
+    left: 29vw;
+    width: 46vw;
+    animation: fall-bounce 1s infinite linear;
+    animation-delay: 0.5s;
+   
+}
+
+.img-siv {
+    position: absolute;
+    top: -48vw;
+    left: 69vw;
+    width: 25vw;
+    animation: stroke 1s infinite reverse;
+    animation-delay: 0.1s;
+   
+}
+
+.img-fr:hover,
+.img-sc:hover,
+.img-th:hover,
+.img-fo:hover,
+.img-fiv:hover,
+.img-siv:hover {
+animation: none;
+}
+
+
+/* КОНЕЦ ГАЛЕРЕИ  */
+
+/* СТРАНИЦА КОНТАКТЫ */
+
+.contacts-first-container {
+display: flex;
+flex-direction: column;
+}
+
+.contacts-top {
+height: 35vw;
+background-color: #FE0000;
+position: relative;
+
+}
+
+.main-word-cont{
+    font-size: 8.9vw;
+    font-family:'Commissioner-Regular';
+    font-style: italic;
+    text-transform: uppercase;
+    position: absolute;
+    top: 26.9vw;
+    animation: stroke 1s infinite reverse;
+animation-delay: 0.1s;
+    
+}
+
+.contacts-mid {
+height: 24vw;
+position: relative;
+}
+
+.teleg,
+.phone,
+.inst {
+    font-family:'Commissioner-Regular';
+    font-style: italic;
+    font-size: 2.5vw;
+    position: absolute;
+}
+
+.teleg {
+top: 4vw;
+left: 27vw;
+animation: fall-bounce 1s infinite reverse;
+animation-delay: 0.1s;
+}
+
+.phone {
+    top: 9vw;
+    left: 1vw;
+    animation: fall-bounce 0.5s infinite linear;
+    animation-delay: 0.2s;
+}
+
+.inst {
+    top: 14vw;
+    left: 24vw;
+    animation: fall-bounce 1s infinite reverse;
+    animation-delay: 0.3s;
+
+}
+
+
+
+.contacts-down {
+    height: 10vw;
+    background-color: #FE0000;
+}
+
+.image-contacts {
+position: relative
+}
+
+.img-hourse {
+ position: absolute;
+ top: -64vw;
+ left: 44vw;
+ width: 53vw;
+
+}
