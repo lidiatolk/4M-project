@@ -1,0 +1,56 @@
+@media all and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) { 
+
+    
+    
+.shop-container-second {
+    flex-direction: column;
+    justify-content: space-around;
+    }
+
+    .shop-red-sweather  {
+        margin-top: 1vw;
+        margin-left: 30vw;
+    
+    }
+
+    .shop-honor {
+        margin-top: 1vw;
+        margin-left: 30vw;
+    
+    }
+
+    .shop-bag-fr {
+        margin-top: 3vw;
+        margin-left: 30vw;
+    
+    }
+
+    .shop-bag-sc  {
+        margin-top: 4vw;
+        margin-left: 30vw;
+    }
+
+    .shop-white-sweather {
+        margin-top: 3vw;
+        margin-left: 30vw;
+    
+    } 
+
+    .shop-bag-th {
+        margin-top: 5vw;
+        margin-left: 30vw;
+    } 
+   
+    .shop-notebook {
+        margin-top: 3vw;
+        margin-left: 30vw;
+    } 
+
+
+
+
+
+
+
+
+}

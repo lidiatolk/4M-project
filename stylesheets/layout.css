@@ -657,6 +657,7 @@ flex-direction: row;
 width: 50vw;
 display: flex;
 flex-direction: column;
+position: relative;
 
 }
 
@@ -668,6 +669,25 @@ flex-direction: column;
     position: relative;
     animation: stroke 0.5s infinite linear;
     animation-delay: 0s;
+    display: none;
+    cursor: pointer;
+}
+
+.buttonfr {
+position: absolute;
+font-family:'Commissioner-Regular';
+font-style: italic;
+font-size: 2.5vw;
+text-transform: uppercase;
+background-color: #FE0000;
+animation: fall-bounce 3s infinite linear;
+top: 1vw;
+left: 1vw;
+padding: 1vw 5vw 1vw 5vw;
+display: none;
+
+
+
 }
 
 .shop-honor {
@@ -811,6 +831,7 @@ left: 12vw;
     left: 16vw;
     padding-top: 1.1vw;
     padding-right: 0.8vw;
+    cursor: pointer;
 }
 
 .img-honor {

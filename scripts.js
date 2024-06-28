@@ -46,5 +46,20 @@ document.addEventListener('mousemove', (event) => {
     image.style.transform = `rotate(${angle}deg)`;
 });
 
+const shopredsweather = document.querySelectorAll('.shop-red-sweather');
 
+toggleDivs.forEach(function(div) {
+    div.addEventListener('click', function() {
 
+        const shopsw = document.querySelector('.shop-red-sweather');
+        const buy = document.querySelector('.buttonfr');
+        
+        if (shopsw.style.display === 'none') {
+            shopsw.style.display = 'block';
+            buy.style.display = 'none';
+        } else {
+            shopsw.style.display = 'none';
+        buy.style.display = 'block';
+        }
+    });
+});
